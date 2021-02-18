@@ -13,7 +13,9 @@ namespace Bomtrato.ProcessManager.App.WebAPI.Data.Map
             builder 
                  .Property(x => x.Name)
                  .IsRequired()
-                 .HasMaxLength(50);                                        
+                 .HasMaxLength(50);
+
+            builder.HasIndex(x => x.Name);
 
             builder.ToTable("Office");
 

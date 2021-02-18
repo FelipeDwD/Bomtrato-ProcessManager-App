@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "uAJPatKTwn7omlabE1IIxf/iHZ3Phn9CYzyM0kln1OQYAYUCMwjE/KLahToj2ftIk6qtqgSV9Bxemz0aTH5EPQ==",
+  "dgSpecHash": "NNKPy4LwSr5HjvOb/x7cyiQNUcLUA75gA57+TuAeEIqgYvHWljxn5mMjudDQ5Rqyp05eg8FGMIaf2cXjc2xa8g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Arruda\\Desktop\\Bomtraro.ProcessManager.App\\Bomtrato.ProcessManager.App.WebAPI\\Bomtrato.ProcessManager.App.WebAPI.Application\\Bomtrato.ProcessManager.App.WebAPI.Application.csproj",
+  "projectFilePath": "C:\\Bomtrato\\Bomtrato.ProcessManager.App.WebAPI\\Bomtrato.ProcessManager.App.WebAPI.Application\\Bomtrato.ProcessManager.App.WebAPI.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Arruda\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\Arruda\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",
@@ -16,8 +16,10 @@
     "C:\\Users\\Arruda\\.nuget\\packages\\microsoft.entityframeworkcore\\3.1.0\\microsoft.entityframeworkcore.3.1.0.nupkg.sha512",
     "C:\\Users\\Arruda\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\3.1.0\\microsoft.entityframeworkcore.abstractions.3.1.0.nupkg.sha512",
     "C:\\Users\\Arruda\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\3.1.0\\microsoft.entityframeworkcore.analyzers.3.1.0.nupkg.sha512",
+    "C:\\Users\\Arruda\\.nuget\\packages\\microsoft.entityframeworkcore.design\\3.1.0\\microsoft.entityframeworkcore.design.3.1.0.nupkg.sha512",
     "C:\\Users\\Arruda\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\3.1.0\\microsoft.entityframeworkcore.relational.3.1.0.nupkg.sha512",
     "C:\\Users\\Arruda\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\3.1.0\\microsoft.entityframeworkcore.sqlserver.3.1.0.nupkg.sha512",
+    "C:\\Users\\Arruda\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\3.1.0\\microsoft.entityframeworkcore.tools.3.1.0.nupkg.sha512",
     "C:\\Users\\Arruda\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\Arruda\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\3.1.0\\microsoft.extensions.caching.abstractions.3.1.0.nupkg.sha512",
     "C:\\Users\\Arruda\\.nuget\\packages\\microsoft.extensions.caching.memory\\3.1.0\\microsoft.extensions.caching.memory.3.1.0.nupkg.sha512",

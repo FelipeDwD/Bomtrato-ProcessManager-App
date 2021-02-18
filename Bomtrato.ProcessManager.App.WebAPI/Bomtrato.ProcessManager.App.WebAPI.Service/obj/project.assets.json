@@ -150,11 +150,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Arruda\\Desktop\\Bomtraro.ProcessManager.App\\Bomtrato.ProcessManager.App.WebAPI\\Bomtrato.ProcessManager.App.WebAPI.Service\\Bomtrato.ProcessManager.App.WebAPI.Service.csproj",
+      "projectUniqueName": "C:\\Bomtrato\\Bomtrato.ProcessManager.App.WebAPI\\Bomtrato.ProcessManager.App.WebAPI.Service\\Bomtrato.ProcessManager.App.WebAPI.Service.csproj",
       "projectName": "Bomtrato.ProcessManager.App.WebAPI.Service",
-      "projectPath": "C:\\Users\\Arruda\\Desktop\\Bomtraro.ProcessManager.App\\Bomtrato.ProcessManager.App.WebAPI\\Bomtrato.ProcessManager.App.WebAPI.Service\\Bomtrato.ProcessManager.App.WebAPI.Service.csproj",
+      "projectPath": "C:\\Bomtrato\\Bomtrato.ProcessManager.App.WebAPI\\Bomtrato.ProcessManager.App.WebAPI.Service\\Bomtrato.ProcessManager.App.WebAPI.Service.csproj",
       "packagesPath": "C:\\Users\\Arruda\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Arruda\\Desktop\\Bomtraro.ProcessManager.App\\Bomtrato.ProcessManager.App.WebAPI\\Bomtrato.ProcessManager.App.WebAPI.Service\\obj\\",
+      "outputPath": "C:\\Bomtrato\\Bomtrato.ProcessManager.App.WebAPI\\Bomtrato.ProcessManager.App.WebAPI.Service\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -174,8 +174,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\Arruda\\Desktop\\Bomtraro.ProcessManager.App\\Bomtrato.ProcessManager.App.WebAPI\\Bomtrato.ProcessManager.App.WebAPI.Domain\\Bomtrato.ProcessManager.App.WebAPI.Domain.csproj": {
-              "projectPath": "C:\\Users\\Arruda\\Desktop\\Bomtraro.ProcessManager.App\\Bomtrato.ProcessManager.App.WebAPI\\Bomtrato.ProcessManager.App.WebAPI.Domain\\Bomtrato.ProcessManager.App.WebAPI.Domain.csproj"
+            "C:\\Bomtrato\\Bomtrato.ProcessManager.App.WebAPI\\Bomtrato.ProcessManager.App.WebAPI.Domain\\Bomtrato.ProcessManager.App.WebAPI.Domain.csproj": {
+              "projectPath": "C:\\Bomtrato\\Bomtrato.ProcessManager.App.WebAPI\\Bomtrato.ProcessManager.App.WebAPI.Domain\\Bomtrato.ProcessManager.App.WebAPI.Domain.csproj"
             }
           }
         }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "AIFB9aYq3b76vE3UKOMH2EfUqucf29lsrr2qpcPeh8I3zn2cDCIDmYdl1cmkLVcCHKvd4n+/vX50Ks7eT52MTA==",
+  "dgSpecHash": "d1ZAEI1+N0XOR+CxORNQSM998hm4XPnjoveLDIP4wSlZOC+n8dPOmVqBWUDiE9g+5k5VpLxZTyWpRGXYl67Fmw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Arruda\\Desktop\\Bomtraro.ProcessManager.App\\Bomtrato.ProcessManager.App.WebAPI\\Bomtrato.ProcessManager.App.WebAPI.Data\\Bomtrato.ProcessManager.App.WebAPI.Data.csproj",
+  "projectFilePath": "C:\\Bomtrato\\Bomtrato.ProcessManager.App.WebAPI\\Bomtrato.ProcessManager.App.WebAPI.Data\\Bomtrato.ProcessManager.App.WebAPI.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Arruda\\.nuget\\packages\\fluentvalidation\\9.5.1\\fluentvalidation.9.5.1.nupkg.sha512",
     "C:\\Users\\Arruda\\.nuget\\packages\\fluentvalidation.aspnetcore\\9.5.1\\fluentvalidation.aspnetcore.9.5.1.nupkg.sha512",
@@ -17,6 +17,7 @@
     "C:\\Users\\Arruda\\.nuget\\packages\\microsoft.entityframeworkcore.design\\3.1.0\\microsoft.entityframeworkcore.design.3.1.0.nupkg.sha512",
     "C:\\Users\\Arruda\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\3.1.0\\microsoft.entityframeworkcore.relational.3.1.0.nupkg.sha512",
     "C:\\Users\\Arruda\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\3.1.0\\microsoft.entityframeworkcore.sqlserver.3.1.0.nupkg.sha512",
+    "C:\\Users\\Arruda\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\3.1.0\\microsoft.entityframeworkcore.tools.3.1.0.nupkg.sha512",
     "C:\\Users\\Arruda\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\3.1.0\\microsoft.extensions.caching.abstractions.3.1.0.nupkg.sha512",
     "C:\\Users\\Arruda\\.nuget\\packages\\microsoft.extensions.caching.memory\\3.1.0\\microsoft.extensions.caching.memory.3.1.0.nupkg.sha512",
     "C:\\Users\\Arruda\\.nuget\\packages\\microsoft.extensions.configuration\\3.1.0\\microsoft.extensions.configuration.3.1.0.nupkg.sha512",

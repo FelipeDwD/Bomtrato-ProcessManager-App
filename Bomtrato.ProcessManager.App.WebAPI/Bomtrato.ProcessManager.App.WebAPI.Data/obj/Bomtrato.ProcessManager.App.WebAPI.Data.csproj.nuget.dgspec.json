@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Arruda\\Desktop\\Bomtraro.ProcessManager.App\\Bomtrato.ProcessManager.App.WebAPI\\Bomtrato.ProcessManager.App.WebAPI.Data\\Bomtrato.ProcessManager.App.WebAPI.Data.csproj": {}
+    "C:\\Bomtrato\\Bomtrato.ProcessManager.App.WebAPI\\Bomtrato.ProcessManager.App.WebAPI.Data\\Bomtrato.ProcessManager.App.WebAPI.Data.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Arruda\\Desktop\\Bomtraro.ProcessManager.App\\Bomtrato.ProcessManager.App.WebAPI\\Bomtrato.ProcessManager.App.WebAPI.Data\\Bomtrato.ProcessManager.App.WebAPI.Data.csproj": {
+    "C:\\Bomtrato\\Bomtrato.ProcessManager.App.WebAPI\\Bomtrato.ProcessManager.App.WebAPI.Data\\Bomtrato.ProcessManager.App.WebAPI.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Arruda\\Desktop\\Bomtraro.ProcessManager.App\\Bomtrato.ProcessManager.App.WebAPI\\Bomtrato.ProcessManager.App.WebAPI.Data\\Bomtrato.ProcessManager.App.WebAPI.Data.csproj",
+        "projectUniqueName": "C:\\Bomtrato\\Bomtrato.ProcessManager.App.WebAPI\\Bomtrato.ProcessManager.App.WebAPI.Data\\Bomtrato.ProcessManager.App.WebAPI.Data.csproj",
         "projectName": "Bomtrato.ProcessManager.App.WebAPI.Data",
-        "projectPath": "C:\\Users\\Arruda\\Desktop\\Bomtraro.ProcessManager.App\\Bomtrato.ProcessManager.App.WebAPI\\Bomtrato.ProcessManager.App.WebAPI.Data\\Bomtrato.ProcessManager.App.WebAPI.Data.csproj",
+        "projectPath": "C:\\Bomtrato\\Bomtrato.ProcessManager.App.WebAPI\\Bomtrato.ProcessManager.App.WebAPI.Data\\Bomtrato.ProcessManager.App.WebAPI.Data.csproj",
         "packagesPath": "C:\\Users\\Arruda\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Arruda\\Desktop\\Bomtraro.ProcessManager.App\\Bomtrato.ProcessManager.App.WebAPI\\Bomtrato.ProcessManager.App.WebAPI.Data\\obj\\",
+        "outputPath": "C:\\Bomtrato\\Bomtrato.ProcessManager.App.WebAPI\\Bomtrato.ProcessManager.App.WebAPI.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -31,8 +31,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\Arruda\\Desktop\\Bomtraro.ProcessManager.App\\Bomtrato.ProcessManager.App.WebAPI\\Bomtrato.ProcessManager.App.WebAPI.Domain\\Bomtrato.ProcessManager.App.WebAPI.Domain.csproj": {
-                "projectPath": "C:\\Users\\Arruda\\Desktop\\Bomtraro.ProcessManager.App\\Bomtrato.ProcessManager.App.WebAPI\\Bomtrato.ProcessManager.App.WebAPI.Domain\\Bomtrato.ProcessManager.App.WebAPI.Domain.csproj"
+              "C:\\Bomtrato\\Bomtrato.ProcessManager.App.WebAPI\\Bomtrato.ProcessManager.App.WebAPI.Domain\\Bomtrato.ProcessManager.App.WebAPI.Domain.csproj": {
+                "projectPath": "C:\\Bomtrato\\Bomtrato.ProcessManager.App.WebAPI\\Bomtrato.ProcessManager.App.WebAPI.Domain\\Bomtrato.ProcessManager.App.WebAPI.Domain.csproj"
               }
             }
           }
@@ -60,6 +60,12 @@
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[3.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.0, )"
             }
           },
           "imports": [
@@ -84,14 +90,14 @@
         }
       }
     },
-    "C:\\Users\\Arruda\\Desktop\\Bomtraro.ProcessManager.App\\Bomtrato.ProcessManager.App.WebAPI\\Bomtrato.ProcessManager.App.WebAPI.Domain\\Bomtrato.ProcessManager.App.WebAPI.Domain.csproj": {
+    "C:\\Bomtrato\\Bomtrato.ProcessManager.App.WebAPI\\Bomtrato.ProcessManager.App.WebAPI.Domain\\Bomtrato.ProcessManager.App.WebAPI.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Arruda\\Desktop\\Bomtraro.ProcessManager.App\\Bomtrato.ProcessManager.App.WebAPI\\Bomtrato.ProcessManager.App.WebAPI.Domain\\Bomtrato.ProcessManager.App.WebAPI.Domain.csproj",
+        "projectUniqueName": "C:\\Bomtrato\\Bomtrato.ProcessManager.App.WebAPI\\Bomtrato.ProcessManager.App.WebAPI.Domain\\Bomtrato.ProcessManager.App.WebAPI.Domain.csproj",
         "projectName": "Bomtrato.ProcessManager.App.WebAPI.Domain",
-        "projectPath": "C:\\Users\\Arruda\\Desktop\\Bomtraro.ProcessManager.App\\Bomtrato.ProcessManager.App.WebAPI\\Bomtrato.ProcessManager.App.WebAPI.Domain\\Bomtrato.ProcessManager.App.WebAPI.Domain.csproj",
+        "projectPath": "C:\\Bomtrato\\Bomtrato.ProcessManager.App.WebAPI\\Bomtrato.ProcessManager.App.WebAPI.Domain\\Bomtrato.ProcessManager.App.WebAPI.Domain.csproj",
         "packagesPath": "C:\\Users\\Arruda\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Arruda\\Desktop\\Bomtraro.ProcessManager.App\\Bomtrato.ProcessManager.App.WebAPI\\Bomtrato.ProcessManager.App.WebAPI.Domain\\obj\\",
+        "outputPath": "C:\\Bomtrato\\Bomtrato.ProcessManager.App.WebAPI\\Bomtrato.ProcessManager.App.WebAPI.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -37,6 +37,10 @@ namespace Bomtrato.ProcessManager.App.WebAPI.Data.Map
                 .Property(x => x.Approved)
                 .IsRequired();
 
+            builder.HasIndex(x => x.Number);
+
+            builder.HasIndex(x => x.ComplainingName);
+
             builder.ToTable("Process");                                                 
         }
     }
