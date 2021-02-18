@@ -13,10 +13,10 @@
     </thead>
     <tbody *ngIf="showTable">
       <tr *ngFor="let item of items"style="cursor: pointer;">
-        <th  (dblclick)="edit(item)" title="Clique para visualizar ou editar">{{ item.number }}</th>
-        <td  (dblclick)="edit(item)" title="Clique para visualizar ou editar" style="text-align: right;">{{ item.casueValue | currency:'BRL' }}</td>
-        <td  (dblclick)="edit(item)" title="Clique para visualizar ou editar" style="width: 200px;">{{ item.complainingName }}</td>
-        <td  (dblclick)="edit(item)" title="Clique para visualizar ou editar" style="width: 200px;">{{ item.office.name }}</td>
+        <th  (dblclick)="edit(item)" title="Clique duas vezes para visualizar ou editar">{{ item.number }}</th>
+        <td  (dblclick)="edit(item)" title="Clique duas vezes para visualizar ou editar" style="text-align: right;">{{ item.casueValue | currency:'BRL' }}</td>
+        <td  (dblclick)="edit(item)" title="Clique duas vezes para visualizar ou editar" style="width: 200px;">{{ item.complainingName }}</td>
+        <td  (dblclick)="edit(item)" title="Clique duas vezes para visualizar ou editar" style="width: 200px;">{{ item.office.name }}</td>
         <td  (click)="editStatus(item)" title="Clique para inativar"*ngIf="item.active" style="color: #04B404; text-align: center; width: 70px;"> Sim </td>
         <td  (click)="editStatus(item)" title="Clique para ativar" *ngIf="!item.active" style="color: #21610B; text-align: center; width: 70px;"> Não </td>
         <td  (click)="editStatusApproval(item)" *ngIf="item.approved" title="Clique para reprovar" style="text-align: center; color: #04B404;">Sim</td>
