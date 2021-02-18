@@ -1,0 +1,32 @@
+<br>
+  <table class="table">
+    <thead>
+      <tr>
+        <th scope="col" style="text-align: center; width: 135px;">Número</th>
+        <th scope="col" style="text-align: center;">Valor da Causa</th>
+        <th scope="col" style="text-align: center" style="width: 200px;">Nome Reclamante</th>
+        <th scope="col" style="text-align: center" style="width: 200px;">Escritório</th>
+        <th scope="col" style="text-align: center; width: 70px;">Ativo</th>     
+        <th scope="col" style="text-align: center;">Aprovado</th>     
+        <th scope="col" style="text-align: center;"></th>   
+      </tr>
+    </thead>
+    <tbody *ngIf="showTable">
+      <tr *ngFor="let item of items"style="cursor: pointer;">
+        <th  (dblclick)="edit(item)" title="Clique para visualizar ou editar">{{ item.number }}</th>
+        <td  (dblclick)="edit(item)" title="Clique para visualizar ou editar" style="text-align: right;">{{ item.casueValue | currency:'BRL' }}</td>
+        <td  (dblclick)="edit(item)" title="Clique para visualizar ou editar" style="width: 200px;">{{ item.complainingName }}</td>
+        <td  (dblclick)="edit(item)" title="Clique para visualizar ou editar" style="width: 200px;">{{ item.office.name }}</td>
+        <td  (click)="editStatus(item)" title="Clique para inativar"*ngIf="item.active" style="color: #04B404; text-align: center; width: 70px;"> Sim </td>
+        <td  (click)="editStatus(item)" title="Clique para ativar" *ngIf="!item.active" style="color: #21610B; text-align: center; width: 70px;"> Não </td>
+        <td  (click)="editStatusApproval(item)" *ngIf="item.approved" title="Clique para reprovar" style="text-align: center; color: #04B404;">Sim</td>
+        <td  (click)="editStatusApproval(item)" *ngIf="!item.approved" title="Clique para aprovar" style="text-align: center; color: #21610B;">Não</td>
+        <td style="text-align:center;" *ngIf="showTable">          
+          <button type="button" class="btn btn-danger btn-delete" (click)="delete(item.id)" style="width: 68px;">excluir</button>
+        </td>
+      </tr>
+    </tbody>          
+      <p *ngIf="!showTable">Não há registros para exibir.</p>  
+    
+</table>
+

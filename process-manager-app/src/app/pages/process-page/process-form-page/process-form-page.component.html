@@ -1,0 +1,191 @@
+<br>
+<div class="layout">    
+        <div class="form-group">    
+            <div class="row">
+                <div class="col-md-12 mb-3">
+                    <h3 class="h3">
+                        Formulário de processos
+                    </h3>
+                </div>          
+            </div>
+            <div class="row">
+                <div class="col-md-3 mb-3">
+                    <label for="processNumber">Número do processo</label>
+                    <input class="form-control"
+                    [ngClass] = "{
+                        'is-invalid': processNumber.invalid && (processNumber.touched || processNumber.dirty) || processNumber.invalid.minlength,        
+                        'is-valid': processNumber.valid && (processNumber.dirty || processNumber.touched)     
+                    }"
+                    type="text"
+                    id="processNumber"
+                    placeholder="Informe o número do processo"
+                    [(ngModel)] = "process.number"
+                    #processNumber = "ngModel"
+                    text
+                    required
+                    maxlength="12"
+                    minlength="12"
+                    onkeypress="return event.charCode >= 48 && event.charCode <= 57"
+                    [readonly]="!inputProcessNumber"
+                    [title]="messageEdit"
+                    autocomplete="off">                                            
+                     <div class="red" *ngIf = "processNumber.invalid && (processNumber.dirty || processNumber.touched) || processNumber.invalid.minlength">
+                        <p class="red">* Número do processo é obrigatório e deve conter 12 digitos numéricos</p>             
+                     </div>       
+                     <div class="red" *ngIf="processInvalid.numberMessage && processNumber.invalid">
+                        <p class="red">{{ processInvalid.numberMessage }}</p>             
+                     </div>            
+                </div>
+                <div class="col-md-9 mb-3">
+                   <h5>{{ messageApiError }}</h5> 
+                </div>               
+            </div>
+            
+            <div class="row">
+                <div class="col-md-3 mb-3">
+                    <label for="casueValue">Valor da causa</label>
+                    <input class="form-control"
+                    [ngClass] = "{
+                        'is-invalid': casueValue.invalid && casueValue.touched || casueValue.value < 30000.00,    
+                        'is-valid': casueValue.value > 29999             
+                    }"
+                    type="text"
+                    id="casueValue"
+                    placeholder="Informe o valor da causa"
+                    [(ngModel)] = "process.casueValue"
+                    #casueValue = "ngModel"
+                    text
+                    required
+                    currencyMask                    
+                    [options]= "{prefixo: 'R $', milhares: '.', decimal: ','}"
+                    autocomplete="off">            
+                        <p class="red" *ngIf="casueValue.invalid && casueValue.touched">* Valor da causa é obrigatório</p>  
+                        <p class="red" *ngIf="casueValue.value < 30000.00" >* Valor minímo da causa deve ser R$ 30.000,00</p>                       
+                        <p class="red" *ngIf="processInvalid.casueValueMessage" >{{ processInvalid.casueValueMessage }}</p>
+                </div>                        
+                <div class="col-md-9 mb-3"></div>                  
+            </div>
+            <div class="row">
+                <div class="col-md-3 mb-3">
+                    <label for="office">Selecione o escritório</label>
+                    <select *ngIf="isEdit" class="form-control" id="office">
+                        <option *ngFor = "let office of offices" [value] = "office.id"  [ngClass]="office.id == process.office.id ? 'list-group-item list-group-item-info' : 'list-group-item list-group-item-light'">
+                             {{office.name}} 
+                        </option>                        
+                      </select>                      
+                      <select *ngIf="!isEdit" class="form-control" id="office">
+                        <option *ngFor = "let office of offices" [value] = "office.id"> {{office.name}} </option>                        
+                      </select>
+                </div>
+                <div class="col-md-4 mb-3">         
+                    <div class="spinner-border text-success" role="status" *ngIf="activeSpinner">
+                        <span class="sr-only">Loading...</span>
+                      </div>                               
+                    <a (click)="newOffice()" *ngIf="!notFind" style="cursor: pointer; color:#21610B;">Não encontrou o escritório? Clique aqui.</a>                        
+                        <input *ngIf="notFind" class="form-control"                        
+                        [ngClass] = "{
+                            'is-invalid': nameOffice.invalid && nameOffice.touched,        
+                            'is-valid': nameOffice.valid && (nameOffice.dirty || nameOffice.touched)
+                        }"
+                        type="text"
+                        id="newOffice"
+                        placeholder="Digite o nome do novo escritório"
+                        [(ngModel)]="officeName"
+                        #nameOffice="ngModel"
+                        text
+                        required
+                        maxlength="50"
+                        onkeypress="return !(event.charCode >= 48 && event.charCode <= 57)"    
+                        >                                                               
+                </div>              
+                <div class="col-md-1 mb-3">
+                    <a (click)="addOffice()" *ngIf="notFind" style="cursor: pointer; color:#21610B;">Cadastrar</a>
+                </div>   
+                <div class="col-md-1 mb-3">
+                    <a (click)="cancelNewOffice()" *ngIf="notFind" style="cursor: pointer; color:red">Cancelar</a>
+                </div>      
+                <div class="col-md-3 mb-3">
+                    
+                </div>             
+            </div>
+            <div class="row">
+                <div class="col-md-3 mb-3">
+                    <label for="complainingName">Nome do reclamante</label>
+                    <input class="form-control"
+                    [ngClass] = "{
+                        'is-invalid': complainingName.invalid && complainingName.touched,        
+                        'is-valid': complainingName.valid && (complainingName.dirty || complainingName.touched)     
+                    }"
+                    type="text"
+                    id="complainingName"
+                    placeholder="Informe o nome do reclamante"
+                    [(ngModel)] = "process.complainingName"
+                    #complainingName = "ngModel"
+                    text
+                    required
+                    maxlength="100"
+                    onkeypress="return !(event.charCode >= 48 && event.charCode <= 57)"
+                    autocomplete="off">
+                    <div class="red" *ngIf = "complainingName.invalid && complainingName.touched">
+                        <p class="red">* Nome do reclamante é obrigatório</p>             
+                     </div>                                                 
+                </div>
+                <div class="col-md-9 mb-3">                    
+                </div>                
+            </div>
+            <div class="row">
+                <div class="col-md-2 mb-3">
+                    Ativo?
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="active" [checked]="active">
+                        <label class="form-check-label" for="active">
+                          Sim
+                        </label>
+                      </div>                 
+                </div>
+                <div class="col-md-2 mb-3">
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="inative" [checked]="!active">
+                        <label class="form-check-label" for="inative">
+                          Não
+                        </label>
+                    </div>
+                </div>
+                <div class="col-md-2 mb-3">
+                    Aprovado?
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="approved" id="approved" [checked]="approved">
+                        <label class="form-check-label" for="approved">
+                          Sim
+                        </label>
+                    </div>
+                </div>
+                <div class="col-md-2 mb-3">
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="approved" id="notApproved" [checked]="!approved">
+                        <label class="form-check-label" for="notApproved">
+                          Não
+                        </label>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3">                    
+                </div>
+            </div>           
+            <div class="row">
+                <div class="col-md-4 mb-3">
+                    <button type="button" class="btn btn-dark btn-block" (click)="back()">Voltar</button>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <button type="button" class="btn btn-success btn-block" (click)="save()" [disabled]="activeSpinner">
+                        <div class="spinner-border spinner-border-sm text-light" role="status" *ngIf="activeSpinner">                            
+                        </div>
+                        {{ textButtonSave }}
+                    </button>
+                </div>
+                <div class="col-md-4 mb-3">                
+                    <button type="button" class="btn btn-danger btn-block" *ngIf="isEdit" (click)="delete(process.id)">Excluir</button>
+                </div>            
+            </div>
+        </div> 
+</div>
+

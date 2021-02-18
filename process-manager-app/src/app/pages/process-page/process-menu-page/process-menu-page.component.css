@@ -1,0 +1,26 @@
+.layout{
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+button{
+    background-color: #5FA63C;
+    color: white;
+}
+
+button:hover{
+    background-color: #2E6612;
+    color: white;
+}
+
+.btn-search{
+    background-image: url(/assets/lupa.jpg);
+}
+
+.filter{
+    border-style: solid;
+    border-color: #DEDFDD;
+    border-radius: 10px;
+}
+

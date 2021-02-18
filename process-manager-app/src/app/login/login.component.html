@@ -1,0 +1,74 @@
+<br><br><br>
+<div class="text-center">
+        <div class="form">                
+            <div class="row">
+                <div class="col-md-4 mb-3">
+                    <h2 class="h2">Login</h2>
+                </div>                
+            </div>           
+            <div class="row">
+                <div class="col-md-4 mb-3">
+                    <label for="email" class="sr-only"></label>
+                     <input class="form-control" 
+                     [ngClass] = "{
+                         'is-invalid': email.invalid && (email.dirty || email.touched),
+                         'is-valid': email.valid && (email.dirty || email.touched)
+                     }"
+                     type="email" 
+                     id="email" 
+                     name="email" 
+                     placeholder="Informe seu e-mail"
+                     [(ngModel)]= "user.email"
+                     #email = "ngModel"
+                     email
+                     required>
+                     <div class="red" *ngIf = "email.invalid && (email.dirty || email.touched)">
+                         * E-mail é obrigatório
+                         <p class="red" *ngIf = "email.errors.email">* Formato incorreto</p>
+                     </div>                     
+                </div>
+            </div>
+           <div class="row">
+                <div class="col-md-4 mb-3">
+                <label for="password" class="sr-only"></label>
+                <input class="form-control" 
+                [ngClass] = "{
+                    'is-invalid': password.invalid && (password.dirty || password.touched),
+                    'is-valid': password.valid && (password.dirty || password.touched)
+                }"
+                type="password" 
+                id="password" 
+                name="password" 
+                placeholder="Digite sua senha"
+                [(ngModel)]= "user.password"
+                #password = "ngModel"
+                password
+                required>
+                <p class="red" *ngIf = "password.invalid && (password.dirty || password.touched)">
+                    * Favor informar senha
+                </p>
+            </div>         
+            </div>
+            <div class="row">
+                <div class="col-md-4 mb-3">
+                    <button type="button" class="btn btn-success btn-block" (click)="login()" [disabled] = "activeSpinner">
+                        <div class="spinner-border spinner-border-sm text-light" role="status" *ngIf = "activeSpinner">                            
+                        </div>
+                        Entrar
+                    </button>
+                </div>
+            </div>
+            <div class="row">                
+                <div class="col-md-4 mb-3">
+                    <p class="red" *ngIf = "message">{{message}}</p>
+                    <img src="../../assets/bomtrato_logo.png">
+                    <p class="green">Gerenciador de Processos</p>
+                </div>                                
+            </div>            
+        </div>
+        <footer>Developed by: Felipe Arruda</footer>
+</div>
+
+
+
+

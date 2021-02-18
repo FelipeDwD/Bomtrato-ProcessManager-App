@@ -1,0 +1,36 @@
+.btn-edit{
+    color:#29652B;
+    background-color: #E8EDEE;
+}
+
+
+html {
+    font-family: verdana;
+    font-size: 10pt;
+    line-height: 25px;
+}
+table {
+    border-collapse: collapse;    
+    overflow-x: scroll;
+    display: block;
+}
+thead {
+    background-color: #EFEFEF;   
+
+}
+thead, tbody {
+    display: block;
+}
+tbody {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 250px;        
+}
+td, th {    
+    width: 130px;
+    height: auto;        
+}
+
+th.tbody{
+    border: solid 1px lightblue;
+}

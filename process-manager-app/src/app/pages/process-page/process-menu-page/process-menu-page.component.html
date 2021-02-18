@@ -1,0 +1,51 @@
+<div class="layout">
+    <div class="row">
+        <div class="col-md-8 mb-3">
+            <h3>Processos</h3>
+        </div>
+        <div class="col-md-4 mb-4">
+            <button class="btn btn-block" (click)="new()">Cadastrar novo</button>
+        </div>
+    </div>    
+    <div class="row filter">
+        <div class="col-md-6 mb-3">
+        <label for="search">Pesquisar:</label>
+        <input type="text" class="form-control" name="search" id="search"
+        placeholder="Digite código, escritório ou reclamante do processo"
+        [(ngModel)]="textFilter"
+        required
+        title="Pesquisas por código ignoram o filtro de ativo e aprovado.">
+        </div>        
+        <div class="col-md-2 mb-3">
+            <label for="status">Ativo:</label>
+            <select name="estado" 
+            id="active" 
+            class="form-control">
+                <option value="2">Ambos</option>
+                <option value="1">Sim</option>
+                <option value="0">Não</option>
+            </select>
+        </div>
+        <div class="col-md-2 mb-3">
+            <label for="status">Aprovado:</label>
+            <select name="estado" 
+            id="approved" 
+            class="form-control">
+                <option value="2">Ambos</option>
+                <option value="1">Sim</option>
+                <option value="0">Não</option>
+            </select>
+        </div>
+        <div class="col-md-2 mb-3">        
+            <label><br></label>             
+            <button class="btn btn-block" title="Pesquisas por código ignoram o filtro de ativo e aprovado." (click)="filter()">
+                Filtrar
+            </button>            
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12 mb-3">
+            <app-process-grid-page [processes]="items"></app-process-grid-page>
+        </div>
+    </div>    
+</div>
