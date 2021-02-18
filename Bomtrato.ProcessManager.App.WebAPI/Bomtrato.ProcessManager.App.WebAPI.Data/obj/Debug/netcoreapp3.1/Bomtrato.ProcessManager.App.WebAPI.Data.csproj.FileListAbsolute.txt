@@ -1,0 +1,15 @@
+C:\Users\Arruda\Desktop\Bomtraro.ProcessManager.App\Bomtrato.ProcessManager.App.WebAPI\Bomtrato.ProcessManager.App.WebAPI.Data\obj\Debug\netcoreapp3.1\Bomtrato.ProcessManager.App.WebAPI.Data.csprojAssemblyReference.cache
+C:\Users\Arruda\Desktop\Bomtraro.ProcessManager.App\Bomtrato.ProcessManager.App.WebAPI\Bomtrato.ProcessManager.App.WebAPI.Data\obj\Debug\netcoreapp3.1\Bomtrato.ProcessManager.App.WebAPI.Data.AssemblyInfoInputs.cache
+C:\Users\Arruda\Desktop\Bomtraro.ProcessManager.App\Bomtrato.ProcessManager.App.WebAPI\Bomtrato.ProcessManager.App.WebAPI.Data\obj\Debug\netcoreapp3.1\Bomtrato.ProcessManager.App.WebAPI.Data.AssemblyInfo.cs
+C:\Users\Arruda\Desktop\Bomtraro.ProcessManager.App\Bomtrato.ProcessManager.App.WebAPI\Bomtrato.ProcessManager.App.WebAPI.Data\obj\Debug\netcoreapp3.1\Bomtrato.ProcessManager.App.WebAPI.Data.csproj.CoreCompileInputs.cache
+C:\Users\Arruda\Desktop\Bomtraro.ProcessManager.App\Bomtrato.ProcessManager.App.WebAPI\Bomtrato.ProcessManager.App.WebAPI.Data\bin\Debug\netcoreapp3.1\Bomtrato.ProcessManager.App.WebAPI.Data.deps.json
+C:\Users\Arruda\Desktop\Bomtraro.ProcessManager.App\Bomtrato.ProcessManager.App.WebAPI\Bomtrato.ProcessManager.App.WebAPI.Data\bin\Debug\netcoreapp3.1\Bomtrato.ProcessManager.App.WebAPI.Data.runtimeconfig.json
+C:\Users\Arruda\Desktop\Bomtraro.ProcessManager.App\Bomtrato.ProcessManager.App.WebAPI\Bomtrato.ProcessManager.App.WebAPI.Data\bin\Debug\netcoreapp3.1\Bomtrato.ProcessManager.App.WebAPI.Data.runtimeconfig.dev.json
+C:\Users\Arruda\Desktop\Bomtraro.ProcessManager.App\Bomtrato.ProcessManager.App.WebAPI\Bomtrato.ProcessManager.App.WebAPI.Data\bin\Debug\netcoreapp3.1\Bomtrato.ProcessManager.App.WebAPI.Data.dll
+C:\Users\Arruda\Desktop\Bomtraro.ProcessManager.App\Bomtrato.ProcessManager.App.WebAPI\Bomtrato.ProcessManager.App.WebAPI.Data\bin\Debug\netcoreapp3.1\Bomtrato.ProcessManager.App.WebAPI.Data.pdb
+C:\Users\Arruda\Desktop\Bomtraro.ProcessManager.App\Bomtrato.ProcessManager.App.WebAPI\Bomtrato.ProcessManager.App.WebAPI.Data\bin\Debug\netcoreapp3.1\Bomtrato.ProcessManager.App.WebAPI.Domain.dll
+C:\Users\Arruda\Desktop\Bomtraro.ProcessManager.App\Bomtrato.ProcessManager.App.WebAPI\Bomtrato.ProcessManager.App.WebAPI.Data\bin\Debug\netcoreapp3.1\Bomtrato.ProcessManager.App.WebAPI.Domain.pdb
+C:\Users\Arruda\Desktop\Bomtraro.ProcessManager.App\Bomtrato.ProcessManager.App.WebAPI\Bomtrato.ProcessManager.App.WebAPI.Data\obj\Debug\netcoreapp3.1\Bomtrato.ProcessManager.App.WebAPI.Data.csproj.CopyComplete
+C:\Users\Arruda\Desktop\Bomtraro.ProcessManager.App\Bomtrato.ProcessManager.App.WebAPI\Bomtrato.ProcessManager.App.WebAPI.Data\obj\Debug\netcoreapp3.1\Bomtrato.ProcessManager.App.WebAPI.Data.dll
+C:\Users\Arruda\Desktop\Bomtraro.ProcessManager.App\Bomtrato.ProcessManager.App.WebAPI\Bomtrato.ProcessManager.App.WebAPI.Data\obj\Debug\netcoreapp3.1\Bomtrato.ProcessManager.App.WebAPI.Data.pdb
+C:\Users\Arruda\Desktop\Bomtraro.ProcessManager.App\Bomtrato.ProcessManager.App.WebAPI\Bomtrato.ProcessManager.App.WebAPI.Data\obj\Debug\netcoreapp3.1\Bomtrato.ProcessManager.App.WebAPI.Data.genruntimeconfig.cache
